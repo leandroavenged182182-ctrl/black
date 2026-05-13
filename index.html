@@ -197,7 +197,7 @@
         currentStake = parseFloat(document.getElementById('stake').value);
 
         // LINHA DE CONEXÃO ROBUSTA PARA EVITAR ERRO DE TOKEN
-        ws = new WebSocket('wss://ws.binaryws.com/websockets/v3?app_id=36544&l=PT&brand=deriv');
+        ws = new WebSocket('wss://ws.binaryws.com/websockets/v3?app_id=60950&l=PT&brand=deriv');
 
         ws.onopen = () => {
             addLog("Conectando ao servidor seguro da Deriv...");
